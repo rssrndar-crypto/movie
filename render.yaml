@@ -4,8 +4,4 @@ services:
     runtime: docker
     region: oregon
     plan: free
-    dockerfile: ./Dockerfile
-    dockerfilePath: ./
-    startCommand: ""
-    healthCheckPath: /
-    autoDeploy: true
+    dockerfile: Dockerfile
