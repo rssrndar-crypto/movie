@@ -1,0 +1,11 @@
+.git
+.gitignore
+.github
+README.md
+*.md
+node_modules
+Gemfile
+Gemfile.lock
+.ruby-version
+package.json
+package-lock.json

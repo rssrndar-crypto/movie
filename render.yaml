@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: streamvault
+    runtime: docker
+    region: oregon
+    plan: free
+    dockerfile: ./Dockerfile
+    dockerfilePath: ./
+    startCommand: ""
+    healthCheckPath: /
+    autoDeploy: true
